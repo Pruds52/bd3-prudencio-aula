@@ -7,6 +7,7 @@ const collection = 'LIVRARIA';
 // CRIAR OU ACESSAR O BANCO DE DADOS:
 use(database);
 
-// CRIAR UMA COLEÇAÕ DE DADOS;
+// CRIAR UMA COLEÇÃO DE DADOS;
 db.createCollection(collection);
+
 
