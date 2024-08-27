@@ -7,4 +7,13 @@ const collection = "LIVRARIA";
 // CRIAR OU ACESSAR O BANCO DE DADOS:
 use(database);
 
-db[collection].find()
+db[collection].find(
+    {
+        "categoria": "Ficção Científica"
+    },
+    {
+        "_id": 0,
+        "codigo": 0,
+        "valor": 0
+    }
+)

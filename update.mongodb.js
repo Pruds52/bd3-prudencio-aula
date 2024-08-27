@@ -7,4 +7,4 @@ const collection = "LIVRARIA";
 // CRIAR OU ACESSAR O BANCO DE DADOS:
 use(database);
 
-db[collection].find()
+db[collection].updateOne()
